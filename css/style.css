@@ -1,3 +1,6 @@
+body {
+  font-family: "Lora", serif;
+}
 .background {
   background-image: url(/img/background-foods-v4.png);
   background-color: #2e2d4c;
@@ -10,6 +13,7 @@
   margin-top: 12rem;
   padding: 5rem;
   border-radius: 1rem;
+  line-height: 3rem;
 }
 
 .header {
@@ -77,4 +81,28 @@ h2 {
   font-size: 1.9rem;
   margin-top: 50px;
   font-weight: bold;
+}
+
+.titulo-fonte {
+  font-family: "Exo 2", sans-serif;
+}
+
+.habilidades label {
+  display: inline-block;
+  width: 20rem;
+}
+
+.habilidades progress {
+  accent-color: #2e2d4c;
+}
+
+.fotos img {
+  width: 45rem;
+  height: 34rem;
+  border-radius: 8px;
+  filter: grayscale(0.4);
+}
+
+.fotos img:hover {
+  filter: none;
 }

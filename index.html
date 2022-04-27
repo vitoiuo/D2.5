@@ -4,9 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roger Camargo</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Roger Camargo</title>
+
+    <!-- web fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&family=Lora:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ícones-->
+    <link
+      class="fonte--grande"
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="background">
@@ -63,6 +79,24 @@
         </ul>
 
         <h3 class="titulo titulo-fonte" id="portifolio">Portifólio</h3>
+        <figure class="fotos">
+          <img
+            src="https://i.pinimg.com/564x/42/1c/f6/421cf633a225f8ce896456d757b38218.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/564x/a3/cb/e3/a3cbe3639c1f8ed1e5136c3834d1be75.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/564x/2c/66/7c/2c667c006022d9178192b5e742a1a363.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/564x/9b/d6/1f/9bd61f267ba64e482c68a2a9599ddf50.jpg"
+            alt=""
+          />
+        </figure>
 
         <h3 class="titulo titulo-fonte">Contato</h3>
         <ul>
@@ -71,12 +105,25 @@
           <li class="fonte-media">chef@roger.br</li>
           <li class="fonte-media">https://roger.br</li>
         </ul>
-
-        <h2 class="titulo titulo-fonte" id="habilidades">Habilidades</h2>
-        <progress class="bar" value="8" max="10">Cozinha italiana</progress>
-        <progress class="bar" value="6" max="10">Cozinha tailandesa</progress>
-        <progress class="bar" value="4" max="10">Cozinha indiana</progress>
-        <progress class="bar" value="9" max="10">Pães & fermentação</progress>
+        <div class="habilidades">
+          <h2 class="titulo titulo-fonte" id="habilidades">Habilidades</h2>
+          <p class="fonte-media">
+            <label for="progress-bar-1">Cozinha italiana</label>
+            <progress id="progress-bar-1" value="8" max="10"></progress>
+          </p>
+          <p class="fonte-media">
+            <label for="progress-bar-2">Cozinha tailandesa</label>
+            <progress id="progress-bar-2" value="6" max="10"></progress>
+          </p>
+          <p class="fonte-media">
+            <label for="progress-bar-3">Cozinha indiana</label>
+            <progress id="progress-bar-3" value="4" max="10"></progress>
+          </p>
+          <p class="fonte-media">
+            <label for="progress-bar-4">Pães & fermentação</label>
+            <progress id="progress-bar-4" value="9" max="10"></progress>
+          </p>
+        </div>
       </div>
     </div>
   </body>
