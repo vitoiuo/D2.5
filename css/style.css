@@ -106,3 +106,19 @@ h2 {
 .fotos img:hover {
   filter: none;
 }
+
+.btn-inicio {
+  position: fixed;
+  width: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 3rem;
+  background-color: white;
+  border-radius: 50%;
+  right: 2rem;
+  bottom: 1rem;
+  opacity: 0.3;
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+}
