@@ -8,9 +8,9 @@ body {
 }
 .container {
   background-color: white;
-  width: 72%;
-  margin: auto;
-  margin-top: 12rem;
+  width: 58%;
+  margin: 10rem auto;
+
   padding: 5rem;
   border-radius: 1rem;
   line-height: 3rem;
@@ -24,7 +24,8 @@ body {
 }
 
 .logo img {
-  width: 11rem;
+  width: 11.5rem;
+  margin: 2rem;
 }
 
 .navigation {
@@ -71,10 +72,12 @@ body {
 h1 {
   font-weight: bold;
   font-size: 3rem;
+  margin: 1rem;
 }
 
 h2 {
   font-size: 1.8rem;
+  opacity: 0.75;
 }
 
 .titulo {
@@ -109,8 +112,8 @@ h2 {
 
 .btn-inicio {
   position: fixed;
-  width: 2rem;
-  padding: 0.5rem 1rem;
+  width: 1.5%;
+  padding: 0.25% 0.75%;
   font-size: 3rem;
   background-color: white;
   border-radius: 50%;
@@ -121,4 +124,12 @@ h2 {
 
 .btn-inicio:hover {
   opacity: 1;
+}
+
+.footer {
+  position: relative;
+  padding: 12rem;
+  background-color: #1b1a2f;
+  color: #fff;
+  text-align: center;
 }
