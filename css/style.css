@@ -19,11 +19,12 @@ body {
   border-radius: 0.5rem;
 }
 .header {
+  width: 100%;
   text-align: center;
   color: #fff;
   margin: auto;
-  margin-bottom: 4rem;
-  padding: 3rem;
+  margin-bottom: 7rem;
+  padding-top: 3rem;
 }
 .logo {
   margin-top: 5rem;
@@ -32,9 +33,18 @@ body {
 .logo img {
   width: 11rem;
 }
+h1 {
+  font-size: 3.2rem;
+  margin: 1rem;
+}
+h2 {
+  font-size: 1.6rem;
+  opacity: 0.75;
+}
 .navigation {
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
   top: 0%;
   left: 30rem;
   z-index: 2;
@@ -44,6 +54,7 @@ body {
   text-transform: uppercase;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
   background-color: #fff;
 }
 .navigation ul {
@@ -77,15 +88,6 @@ body {
 .fonte-media {
   font-size: 1.7rem;
 }
-h1 {
-  font-weight: bold;
-  font-size: 3.2rem;
-  margin: 1rem;
-}
-h2 {
-  font-size: 1.7rem;
-  opacity: 0.75;
-}
 .titulo {
   font-size: 1.9rem;
   margin-top: 50px;
@@ -103,8 +105,9 @@ h2 {
   accent-color: #2e2d4c;
 }
 .fotos {
-  width: 60rem;
+  width: 100%;
   text-align: center;
+  column-count: 2;
 }
 .fotos img {
   width: 25rem;
@@ -128,9 +131,10 @@ h2 {
   opacity: 0.3;
   font-size: 3rem;
 }
-
 .btn-inicio:hover {
   opacity: 1;
+
+  background-color: linear-gradient();
 }
 .btn-inicio a:active {
   color: #100d66;
@@ -193,4 +197,75 @@ h4 a:hover {
 h4 a:active {
   color: #100d66;
   text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 720px) {
+  body {
+    position: absolute;
+  }
+  .logo img {
+    width: 8rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    opacity: 0.75;
+  }
+  .container {
+    width: 78%;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .fotos {
+    column-count: 1;
+  }
+  .fotos img {
+    width: 100%;
+    height: 16rem;
+  }
+  .navigation {
+    margin-bottom: 1rem;
+  }
+  .navigation ul {
+    width: 25%;
+  }
+  .navigation ul li {
+    width: 25%;
+    padding-right: 1rem;
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+
+  .perfil img {
+    width: 9rem;
+    float: left;
+    margin-right: 1rem;
+  }
+  .btn-inicio {
+    right: 0.5rem;
+  }
+  .habilidades label {
+    display: inline-block;
+    width: 15rem;
+  }
+  .habilidades progress {
+    width: 15rem;
+  }
+  .navigation {
+    position: static;
+  }
+  .fonte-media {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .alinhado {
+    text-align: justify;
+  }
+  .footer {
+    padding: 6rem 0 6rem 0;
+  }
 }
