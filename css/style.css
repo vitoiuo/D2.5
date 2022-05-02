@@ -14,9 +14,9 @@ body {
   width: 51%;
   margin: 0rem auto 12rem auto;
   color: #4d3c64;
-  padding: 4rem 4rem 4rem 4rem;
-
+  padding: 3rem 4rem 4rem 4rem;
   line-height: 3rem;
+  border-radius: 0.5rem;
 }
 .header {
   text-align: center;
@@ -30,20 +30,21 @@ body {
   margin-bottom: 2rem;
 }
 .logo img {
-  width: 11.5rem;
+  width: 11rem;
 }
 .navigation {
   position: -webkit-sticky;
   position: sticky;
   top: 0%;
-  left: 20rem;
+  left: 30rem;
   z-index: 2;
-  width: 51%;
   margin: auto;
+  margin-bottom: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  padding: 2rem 4rem;
-  background-color: #1b1a2f;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
 }
 .navigation ul {
   display: table;
@@ -57,11 +58,11 @@ body {
 }
 .navigation li a:link,
 .navigation li a:visited {
-  color: rgb(255, 255, 255);
+  color: #c0bcc9;
   text-decoration: none;
 }
 .navigation li a:hover {
-  color: #5c4876;
+  color: gray;
   text-decoration: underline;
 }
 .navigation li a:active {
