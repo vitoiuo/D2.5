@@ -25,25 +25,26 @@
     />
   </head>
   <body>
+    <span class="logotipo"><i class="far fa-registered"></i></span>
+    <div class="logomarca fundo"></div>
     <div class="background">
       <div class="header">
         <figure class="logo">
           <img src="./img/eco-food.png" alt="" />
         </figure>
-        <h1><strong>Sou Roger Camargo</strong></h1>
+        <h1><strong>sou Roger Camargo</strong></h1>
         <h2>Chef de cozinha profissional & programador</h2>
       </div>
-
+      <div class="navigation">
+        <ul>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#portifolio">Portifólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+      </div>
       <div class="container">
         <a name="inicio"></a>
-
-        <div class="navigation">
-          <ul>
-            <li><a href="#experiencia">Experiência</a></li>
-            <li><a href="#portifolio">Portifólio</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-          </ul>
-        </div>
 
         <figure class="perfil">
           <img src="./img/RogerAvatar2022-6.png" alt="" />
@@ -66,16 +67,16 @@
         </p>
 
         <h3 class="titulo titulo-fonte" id="experiencia">Experiência</h3>
-        <ul>
-          <li class="fonte-media">
+        <ul class="xp">
+          <li class="fonte-media ponto">
             2016 até 2022: Uma virada para pratos orientais, principalmente
             culinária Tailandesa
           </li>
-          <li class="fonte-media">
+          <li class="fonte-media ponto">
             2011 até 2015: Especializado na culinária Italiana e pratos do Norte
             do Brasil
           </li>
-          <li class="fonte-media">
+          <li class="fonte-media ponto">
             2000 até 2010: Pratos típicos da culinária brasileira
           </li>
         </ul>
@@ -99,17 +100,23 @@
             alt=""
           />
         </figure>
-        <h3 class="titulo titulo-fonte">Contato</h3>
+        <h3 id="contato" class="titulo titulo-fonte">Contato</h3>
         <ul>
           <li class="fonte-media">
-            <i class="fa-solid fa-phone"></i>+55 12 991 000 999
+            <i class="fas fa-phone-alt"></i>+55 12 991 000 999
           </li>
-          <li class="fonte-media">+55 12 991 000 999</li>
-          <li class="fonte-media">chef@roger.br</li>
-          <li class="fonte-media">https://roger.br</li>
+          <li class="fonte-media">
+            <i class="fab fa-whatsapp"></i>+55 12 991 000 999
+          </li>
+          <li class="fonte-media">
+            <i class="far fa-envelope-open"></i>chef@roger.br
+          </li>
+          <li class="fonte-media">
+            <i class="fas fa-globe"></i>https://roger.br
+          </li>
         </ul>
         <div class="habilidades">
-          <h2 class="titulo titulo-fonte" id="habilidades">Habilidades</h2>
+          <h3 class="titulo titulo-fonte" id="habilidades">Habilidades</h3>
           <p class="fonte-media">
             <label for="progress-bar-1">Cozinha italiana</label>
             <progress id="progress-bar-1" value="8" max="10"></progress>
@@ -130,16 +137,28 @@
       </div>
 
       <div class="footer">
-        <h4>Roger Camargo</h4>
-        <p>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <h4>© Roger Camargo | Dev Pro | 2022</h4>
+        <p class="links">
+          <a href="https://github.com/huogerac/minhalandingpage" target="blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+
+          <a href="https://huogerac.hashnode.dev/" target="blank">
+            <i class="fas fa-blog"></i>
+          </a>
+
+          <a href="https://speakerdeck.com/huogerac" target="blank">
+            <i class="fab fa-slideshare"></i>
+          </a>
+          <a
+            href="https://www.goodreads.com/user/show/12238416-roger-camargo"
+            target="blank"
+          >
+            <i class="fas fa-book"></i>
+          </a>
         </p>
         <div class="btn-inicio">
-          <a href="#inicio"><img src="/img/angle-up-solid.svg" alt="" /></a>
+          <a href="#inicio"><i class="fas fa-angle-up"></i></a>
         </div>
       </div>
     </div>

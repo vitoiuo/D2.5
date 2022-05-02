@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lora", serif;
 }
@@ -8,128 +11,173 @@ body {
 }
 .container {
   background-color: white;
-  width: 58%;
-  margin: 10rem auto;
+  width: 51%;
+  margin: 0rem auto 12rem auto;
+  color: #4d3c64;
+  padding: 4rem 4rem 4rem 4rem;
 
-  padding: 5rem;
-  border-radius: 1rem;
   line-height: 3rem;
 }
-
 .header {
   text-align: center;
   color: #fff;
   margin: auto;
+  margin-bottom: 4rem;
   padding: 3rem;
 }
-
+.logo {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
 .logo img {
   width: 11.5rem;
-  margin: 2rem;
 }
-
 .navigation {
-  width: 420px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0%;
+  left: 20rem;
+  z-index: 2;
+  width: 51%;
+  margin: auto;
   font-size: 1.2rem;
   text-transform: uppercase;
+  padding: 2rem 4rem;
+  background-color: #1b1a2f;
 }
-
 .navigation ul {
   display: table;
-  width: 100%;
+  width: 25%;
+  margin: 0;
 }
 .navigation ul li {
   display: table-cell;
   width: 25%;
+  padding-right: 1.5rem;
 }
-
 .navigation li a:link,
 .navigation li a:visited {
-  color: gray;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
 .navigation li a:hover {
-  color: #494848;
+  color: #5c4876;
   text-decoration: underline;
 }
-
 .navigation li a:active {
   color: #100d66;
   text-decoration: underline;
 }
-
 .perfil img {
-  width: 14rem;
+  width: 9rem;
   float: left;
-  padding: 2rem;
+  margin-right: 1rem;
 }
-
 .fonte-media {
   font-size: 1.7rem;
 }
-
 h1 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 3.2rem;
   margin: 1rem;
 }
-
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   opacity: 0.75;
 }
-
 .titulo {
   font-size: 1.9rem;
   margin-top: 50px;
+  margin-bottom: 20px;
   font-weight: bold;
 }
-
 .titulo-fonte {
   font-family: "Exo 2", sans-serif;
 }
-
 .habilidades label {
   display: inline-block;
   width: 20rem;
 }
-
 .habilidades progress {
   accent-color: #2e2d4c;
 }
-
+.fotos {
+  width: 60rem;
+  text-align: center;
+}
 .fotos img {
-  width: 45rem;
-  height: 34rem;
+  width: 25rem;
+  height: 20rem;
   border-radius: 8px;
   filter: grayscale(0.4);
 }
-
 .fotos img:hover {
   filter: none;
 }
-
 .btn-inicio {
+  width: auto;
+  height: auto;
   position: fixed;
-  width: 1.5%;
-  padding: 0.25% 0.75%;
-  font-size: 3rem;
+  padding: 0.6rem 1.1rem;
+  color: white;
   background-color: white;
   border-radius: 50%;
   right: 2rem;
-  bottom: 1rem;
+  bottom: 2rem;
   opacity: 0.3;
+  font-size: 3rem;
 }
 
 .btn-inicio:hover {
   opacity: 1;
 }
-
 .footer {
   position: relative;
-  padding: 12rem;
+  padding: 8rem;
   background-color: #1b1a2f;
   color: #fff;
   text-align: center;
+}
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+  font-size: 1.8rem;
+  transform: translateX(50%);
+  padding-top: 13px;
+}
+.logomarca.fundo {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  float: right;
+  margin-right: 50%;
+  margin-top: -7.6rem;
+  transform: translate(50%) rotate(45deg);
+}
+.ponto {
+  list-style: disc;
+}
+li i {
+  margin-right: 1rem;
+}
+.links {
+  margin: 1rem 0rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+.links i {
+  color: #593b8b;
+  font-size: 22px;
+}
+.links i:hover {
+  color: #fff;
+}
+.xp {
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
 }
